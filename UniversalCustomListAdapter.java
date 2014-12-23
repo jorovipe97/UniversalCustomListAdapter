@@ -53,5 +53,5 @@ abstract class UniversalCustomListAdapter extends BaseAdapter {
      * @param listItems La entrada que será la asociada a la view. La entrada es del tipo del paquete/handler
      * @param view View particular que contendrá los datos del paquete/handler
      */
-    public abstract void onItem (Object listItems, View view);
+    public abstract void onItem (Object listItem, View view);
 }
